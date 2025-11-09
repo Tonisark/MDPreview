@@ -15,7 +15,7 @@ Perfect for writers, devs, and note-takers who want double-click previews withou
 - **Offline & Fast**: No internet, no bloat—under 50MB install.
 
 ## Installation
-1. Download the latest release from [Releases](https://github.com/Tonisark/MDPewview/releases).
+1. Download the latest release from [Releases](https://github.com/Tonisark/MDPreview/releases).
 2. Run `MDPreviewSetup.exe` and follow the wizard.
 3. On the "Select Additional Tasks" page:
    - **Create a desktop icon**: Quick access from your desktop.
