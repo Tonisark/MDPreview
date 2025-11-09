@@ -15,7 +15,7 @@ Perfect for writers, devs, and note-takers who want double-click previews withou
 - **Offline & Fast**: No internet, no bloat—under 50MB install.
 
 ## Installation
-1. Download the latest release from [Releases](https://github.com/yourusername/mdpreview/releases).
+1. Download the latest release from [Releases](https://github.com/Tonisark/MDPewview/releases).
 2. Run `MDPreviewSetup.exe` and follow the wizard.
 3. On the "Select Additional Tasks" page:
    - **Create a desktop icon**: Quick access from your desktop.
@@ -47,12 +47,6 @@ def greet(name):
 - Go to Settings > Apps > Search "MDPreview" > Uninstall.
 - Context menu entry auto-removes; desktop icon vanishes.
 
-## Building from Source
-1. Clone the repo: `git clone https://github.com/yourusername/mdpreview.git`
-2. Install deps: `pip install PyQt5 PyQtWebEngine markdown pygments pyinstaller`
-3. Build .exe: `pyinstaller --onefile --windowed --name "MDPreview" md_viewer_pyqt.py`
-4. For installer: Use Inno Setup with the provided `.iss` script.
-
 ## Troubleshooting
 - **No Colors?**: Reinstall pygments (`pip install pygments`) and rebuild.
 - **Drag-Drop Fails?**: Run as admin once, or check file paths for spaces.
@@ -60,4 +54,4 @@ def greet(name):
 - **Build Issues?**: Ensure Python 3.8+ and Visual C++ Build Tools.
 
 ## Contributing
-Pull requests welcome! For major changes, please open an issue first. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+Pull requests welcome! For major changes, please open an issue first
